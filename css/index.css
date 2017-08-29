@@ -1,0 +1,331 @@
+@charset "utf-8";
+/*头部搜索栏*/
+header{ float:left}
+.search{
+	width:100vw;
+	background:#F1F1F1;
+	height:2em;
+	}
+.search span{
+	width:52vw;
+	min-width:1000px;
+	margin:0 auto;
+	}
+.search span input{
+	border-radius:10px;
+	border:solid 1px #999;
+	opacity:0.5;
+	line-height:18px;
+	float:right;
+	text-indent:10%;
+	}
+.search span i{ padding-top:0.8%}
+.search span img{
+	float:right;
+	margin-left:1%;
+	}
+/*导航栏*/
+nav{
+	height:5em;
+	background:#FAFAFA;
+	padding-top:1.5%;
+	box-sizing:border-box;
+	}
+.navcenter{
+	width:52vw;
+	min-width:1000px;
+	margin:0 auto;
+	}
+.logo{
+	float:left;
+	margin-right:5%;
+	margin-top:-0.8em;
+	}
+nav ul{
+	float:left;
+	font-size:15px;
+	margin-top:1%;
+	}
+nav ul a{
+	float:left;
+	color:#272727;
+	cursor:pointer;
+	}
+nav ul a i{
+	display:inline-block;
+	color:#C4C0C0;
+	margin:0 0.5em;
+	}
+.navnew{
+	position:relative;
+	top:-3.6vh;
+	left:520px;
+	}
+
+/*banner*/
+#box {
+	margin:0 auto;
+	height:36vh;
+	width:100vw;
+	min-width:1000px;
+	overflow:hidden;
+	position:relative;
+}
+.advs {
+	width:400vw;
+	float:left;
+	position:absolute;
+	transition:left 1s;
+}
+.advs li {
+	width:100vw;
+	min-height:36vh;
+	float:left;
+	overflow:hidden;
+	}
+.advs li a{
+	min-height:36vh;
+	background-position:center top !important;
+	}
+.icons {
+	width:300px;
+	position:relative;
+	top:32vh;
+	left:calc(48% - 150px);
+	bottom:8px;
+	text-align:center;
+}
+.icons > li {
+	border-radius:50%;
+	display:inline-block;
+    width:16px;
+	height:16px;
+	background:rgba(150,150,152,0.5);
+	margin:0 5px;
+}
+.icons > li.curr {
+	background:#99cc99;
+}
+/*苗木种类*/
+section{ float:left; color:#2A2A2A}
+.Seedling-types{
+	width:100vw;
+	height:26vh;
+	background-position:center top !important;
+	margin-top:0.5em;
+	}
+.Seedling-types ul{
+	width:52vw;
+	min-width:1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+	padding-top:4vh;
+	}
+.Seedling-types ul a{ 
+    cursor:pointer;
+	text-align:center;
+	width:10%;
+	color: #545454;
+	font-weight:600;
+	font-family: "microsoft YaHei", Arial, Helvetica, sans-serif;
+	}
+.more1{
+	background:url(../img/index/tu66.png) no-repeat;
+	background-position:center;
+	width:4em;
+	height:4em;
+	color:#FFF !important;
+	font-weight:400 !important;
+	padding:1.3em 1em;
+	box-sizing:border-box;
+	}
+.more1-1{ margin-right:-7em}
+/*关于我们*/
+.about-center{
+	width:52vw;
+	height:15vh;
+	min-width:1000px;
+	margin:1em auto;
+	}
+.about-center-part{
+	float:left;
+	padding-right:1.8em;
+	box-sizing:border-box;
+	}
+.aboutleftwidth{width:53%}
+.aboutrightwidth{width:47%}
+.about-center-title{
+	display:flex;
+	align-items: center;
+	margin-bottom:1em;
+	}
+.about-center-title span{ font-size:22px}
+.fontred{ color:#FF0000}
+.about-center-title i{ color:#AFAFAF; margin-left:5%}
+.about-center-title a{ 
+    color:#C1C1C1; 
+	margin-left:52%; 
+	font-size:12px;
+	}
+.about-center-text{ 
+    font-size:12px;
+	color:#737373;
+	line-height:20px;
+	}
+.chakanmore{
+	display:inline-block;
+	margin-left:0.2em;
+	}
+.about-center-text-left{
+	width:53%;
+	float:left;
+	padding-right:0.6em;
+	box-sizing:border-box;
+	}
+.about-center-text-right{
+	width:46%;
+	float:left;
+	height:6.5em;
+	border:solid 2px #CCCCCC;
+	}
+.about-center-text-right img{ width:100%; height:100%}
+.about-center-text-left ul span{
+	display:inline-block;
+	background:url(../img/index/tu81.png) no-repeat;
+	background-size:cover;
+	color:#fff;
+	width:46px;
+	height:12px;
+	line-height:12px;
+	text-indent:5px;
+	margin-left:10px;
+	margin-top:5px;
+    }
+.Friendship-links{
+	width:52vw;
+	height:14vh;
+	min-width:1000px;
+	margin:0 auto;
+	background:#F6F6F6;
+	padding:1.5em 0;
+	box-sizing:border-box;
+	}
+.Friendship-links-center{
+	background:#E7E7E7;
+	border-top:solid 1px #CACACA;
+	border-bottom:solid 1px #E1E1E1;
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+	height:97%;
+	padding-right:1em;
+	}
+.Friendship-links-center span{
+	background:#D7D7D7;
+	font-size: 20px;
+    color: #000;
+    width: 118px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+	font-weight:500;
+	}
+.Friendship-links-center a{ font-weight:500}
+.Friendship-links-center a img{ 
+   vertical-align:middle;
+   margin-right:8px;
+   }
+.tel{
+	font-size:20px;
+	font-weight:700;
+	margin-left:2em;
+	}
+/*侧边固定联系方式插件*/
+aside{ 
+   width:69px;
+   height:280px;
+   position:fixed;
+   top:30vh;
+   right:30px;
+   }
+aside ul a{
+	width:69px;
+	height:69px;
+	overflow:hidden;
+	margin-top:2px;
+	}
+aside ul a:hover{ background-position:bottom !important}
+#erweima{
+	background:url(../img/index/wxm_03.gif);
+	width:150px;
+	height:169px;
+	position:relative;
+	right:150px;
+	top:-100px;
+	opacity:0;
+	}
+/*底部黑色信息栏*/
+footer{
+	width:100vw;
+    height:20vh; 
+	float:left;
+	background:#2C2C2C;
+	}
+.navbottom{
+	width:52vw;
+	height:5vh;
+	min-width:1000px;
+	margin:0 auto;
+	display:flex;
+	color:#CECECE;
+	}
+.navbottom ul{
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+	width:40%;
+	font-size:15px;
+	}
+.navbottom ul a{ 
+    height:5vh; 
+	line-height:5vh;
+	width:20%;
+	text-align:center;
+	}
+.navbottom span{
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+	width:16%;
+	margin-left:45%;
+	font-size:14px;
+	}
+.navbottom ul a:hover{background:#D21E1F}
+.hoverred{ background:#D21E1F}
+.Copyright{
+	border-top:solid 1px #535353;
+	display:flex;
+	flex-flow:column;
+	justify-content:space-around;
+	align-items: center;
+	color:#8D8D8D;
+	font-size:13px;
+	}
+.Copyright span{ 
+   width:100vw; 
+   text-align:center;
+   line-height:4em;
+   padding-top:1vh;
+   }
+
+
+
+
+
+
+
+
+
+

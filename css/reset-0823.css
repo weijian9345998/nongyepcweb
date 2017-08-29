@@ -1,0 +1,9 @@
+@charset "utf-8";
+html,body,header,section,footer,div,ul,li,a,img,span,i{ margin:0; padding:0}
+html,body{ width:100vw; height:100vh; overflow-x:hidden;}
+li{ list-style:none; display:block}
+a{ text-decoration:none; display:block}
+i{ font-style:normal; display:block}
+span,ul{ display:block}
+button,input{ outline:none}
+/*<link rel="stylesheet" href="css/reset-0823.css" type="text/css">*/
